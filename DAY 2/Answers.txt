@@ -1,0 +1,9 @@
+MCQ 1 : Compilation Error
+
+MCQ 2 : 16.666666
+
+MCQ 3 : 3
+
+MCQ 4 : 10
+
+MCQ 5 : 11.25

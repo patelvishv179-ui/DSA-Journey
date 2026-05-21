@@ -1,0 +1,174 @@
+==================== DAY 2 - OPERATORS IN JAVASCRIPT ====================
+
+1. Arithmetic Operators
+
+---
+
+* Addition
+
+- Subtraction
+
+* Multiplication
+  /  Division
+  %  Mod Operator
+
+Example:
+10 / 3 = 3
+10 % 3 = 1
+
+2. Relational Operators
+
+---
+
+> Greater Than
+> <   Less Than
+> =  Greater Than Equal To
+> <=  Less Than Equal To
+> ==  Checks Only Value
+> === Checks Value And Datatype
+> !=  Not Equal
+> !== Not Equal With Datatype
+
+3. Logical Operators
+
+---
+
+&&  AND Operator
+||  OR Operator
+
+OR:
+If one condition is true then block executes.
+
+AND:
+Both conditions must be true.
+
+4. Unary Operators
+
+---
+
+++ Increment
+-- Decrement
+
+Pre Increment:
+First increment then use value.
+
+Post Increment:
+First use value then increment.
+
+==================== DIVISION ====================
+
+Math.floor(10 / 3)
+Output: 3
+
+Math.floor(8 / 10)
+Output: 0
+
+NOTE:
+In DSA integer/integer generally gives integer answer.
+
+==================== MOD OPERATOR ====================
+
+10 % 3
+Output: 1
+
+3 % 10
+Output: 3
+
+NOTE:
+If first number is smaller than second number,
+mod answer becomes first number.
+
+==================== REMOVE LAST DIGITS ====================
+
+To remove last digit:
+Divide by 10
+
+To remove last two digits:
+Divide by 100
+
+Example:
+
+let number = 12345;
+
+Math.floor(number / 10)
+
+Output:
+1234
+
+==================== GET LAST DIGITS ====================
+
+To get last digit:
+% 10
+
+To get last two digits:
+% 100
+
+Example:
+
+let number = 12345;
+
+number % 100
+
+Output:
+45
+
+==================== RELATIONAL OPERATOR EXAMPLES ====================
+
+9 == '9'
+Output: true
+
+9 === '9'
+Output: false
+
+NOTE:
+== checks only value.
+=== checks value and datatype.
+
+==================== LOGICAL OPERATOR EXAMPLES ====================
+
+OR Operator:
+
+if(9 != 9 || '9' === 9)
+
+If one condition becomes true,
+block executes.
+
+AND Operator:
+
+if(9 === 9 && 10 === 10)
+
+Both conditions must be true.
+
+==================== UNARY EXAMPLE ====================
+
+let a = 12;
+let b = 15;
+let c = 8;
+
+let d = (a++) + (--b) - (c++) + (++a);
+
+Calculation:
+
+12 + 14 - 8 + 14
+
+Answer:
+32
+
+==================== IMPORTANT NOTE ====================
+
+Unary operators cannot be applied on constants.
+
+Invalid:
+++10
+
+==================== MCQ ANSWERS ====================
+
+MCQ 1 : Compilation Error
+
+MCQ 2 : 16.666666
+
+MCQ 3 : 3
+
+MCQ 4 : 10
+
+MCQ 5 : 11.25

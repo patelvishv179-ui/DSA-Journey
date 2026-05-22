@@ -1,0 +1,188 @@
+==================== DAY 3 - MATH FUNCTIONS ====================
+
+## Math Functions And Their Uses
+
+Math.round()
+Rounds the value.
+
+If decimal value is:
+
+> = .50 -> behaves like ceil
+> < .50 -> behaves like floor
+
+Example:
+Math.round(10.50)
+Output: 11
+
+---
+
+Math.ceil()
+Converts floating value into next higher integer.
+
+Example:
+Math.ceil(1.1)
+Output:
+2
+
+---
+
+Math.floor()
+Converts floating value into lower integer.
+
+Example:
+Math.floor(1.9)
+Output:
+1
+
+---
+
+Math.round()
+Rounds the value.
+
+If decimal value is:
+
+> = .50 -> behaves like ceil
+> < .50 -> behaves like floor
+
+Example:
+Math.round(10.50)
+Output: 11
+
+----------
+
+Math.trunc()
+Removes decimal part.
+
+Example:
+Math.trunc(10.56223)
+
+Output:
+10
+
+---
+
+Math.pow()
+Used to calculate power.
+
+Syntax:
+Math.pow(number, power)
+
+Example:
+Math.pow(10,3)
+
+Output:
+1000
+
+---
+
+Math.sqrt()
+Returns square root.
+
+Example:
+Math.sqrt(27)
+
+Output:
+5.196152422706632
+
+---
+
+Math.cbrt()
+Returns cube root.
+
+Example:
+Math.cbrt(36)
+
+Output:
+3.3019272488946263
+
+---
+
+Math.abs()
+Converts negative value into positive.
+
+Example:
+Math.abs(-5)
+
+Output:
+5
+
+---
+
+Math.max()
+Returns highest value among elements.
+
+Example:
+Math.max(10,0,30)
+
+Output:
+30
+
+---
+
+Math.min()
+Returns smallest value among elements.
+
+Example:
+Math.min(10,0,30)
+
+Output:
+0
+
+---
+
+Math.random()
+Generates random value between:
+
+0 to 0.999999
+
+---
+
+toFixed()
+Limits decimal places.
+
+Example:
+(10.23465656).toFixed(4)
+
+Output:
+10.2347
+
+==================== MATH PROBLEMS ====================
+
+Q6: CALCULATE COMPOUND INTEREST
+
+Formula:
+
+CP = P(1 + r/100)^t - P
+
+Example:
+P = 10000
+r = 5
+t = 3
+
+Output:
+1576.25
+
+---
+
+Q7: GENERATE RANDOM OTP
+
+Example:
+Math.ceil(Math.random() * 10000)
+
+---
+
+Q8: AREA OF TRIANGLE BY HERON'S FORMULA
+
+Formula:
+
+√(s * (s-a) * (s-b) * (s-c))
+
+---
+
+Q9: CIRCUMFERENCE OF CIRCLE
+
+Formula:
+
+c = 2 * π * r
+
+== All Questions Answers is in Math_Fucntions.js File===========
